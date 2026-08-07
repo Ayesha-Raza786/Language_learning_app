@@ -45,56 +45,24 @@ The app focuses on making language learning simple, interactive, and engaging th
     - Stores learning and translation data locally using SQLite/SQFlite.
 
 ---
-##  Screenshots
+## Screenshots
 
-###  Home Screen
+| Home Screen |                      Essential Vocabulary                      |                     Daily Lessons                     |
+|:---:|:--------------------------------------------------------------:|:-----------------------------------------------------:|
+| <img src="assets/screenshots/home.png" width="220"> | <img src="assets/screenshots/essential_vocab.png" width="220"> | <img src="assets/screenshots/lesson.png" width="220"> |
 
-<p align="center">
-  <img src="assets/screenshots/home.png" width="40%">
-</p>
+<br>
 
-###  Essential Vocabulary
+| Quiz | Quiz Results |                      AI Translation                      |
+|:---:|:---:|:--------------------------------------------------------:|
+| <img src="assets/screenshots/quiz.png" width="220"> | <img src="assets/screenshots/quiz_result.png" width="220"> | <img src="assets/screenshots/AI_screen.png" width="220"> |
+|      |              |                                                          |
 
-<p align="center">
-  <img src="assets/screenshots/essential_vocab.png" width="40%">
-</p>
+<br>
 
-###  Daily Lessons
-
-<p align="center">
-  <img src="assets/screenshots/lesson.png" width="40%">
-</p>
-
-###  Quiz
-
-<p align="center">
-  <img src="assets/screenshots/quiz.png" width="40%">
-</p>
-
-###  Quiz Results
-
-<p align="center">
-  <img src="assets/screenshots/quiz_result.png" width="40%">
-</p>
-
-###  AI Translation
-
-<p align="center">
-  <img src="assets/screenshots/AI_screen.png" width="40%">
-</p>
-
-### ️ Favorites
-
-<p align="center">
-  <img src="assets/screenshots/favourites.png" width="40%">
-</p>
-
-### Translation History
-
-<p align="center">
-  <img src="assets/screenshots/history.png" width="40%">
-</p>
-
+| Favorites | Translation History | |
+|:---:|:---:|:---:|
+| <img src="assets/screenshots/favourites.png" width="220"> | <img src="assets/screenshots/history.png" width="220"> | |
 ---
 
 ##  Tech Stack
