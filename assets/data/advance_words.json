@@ -1,0 +1,167 @@
+[
+  {
+    "originalText": "Achievement",
+    "translatedText": "Başarı",
+    "pronunciation": "Ba-sha-rı",
+    "meaning": "Something accomplished successfully.",
+    "category": "Career",
+    "difficulty": "Advanced",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Awareness",
+    "translatedText": "Farkındalık",
+    "pronunciation": "Far-kın-da-lık",
+    "meaning": "Knowledge or perception of a situation.",
+    "category": "Self Development",
+    "difficulty": "Advanced",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Confidence",
+    "translatedText": "Özgüven",
+    "pronunciation": "Oz-gu-ven",
+    "meaning": "Belief in one's abilities.",
+    "category": "Psychology",
+    "difficulty": "Advanced",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Determination",
+    "translatedText": "Kararlılık",
+    "pronunciation": "Ka-rar-lı-lık",
+    "meaning": "Firmness of purpose.",
+    "category": "Personality",
+    "difficulty": "Advanced",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Innovation",
+    "translatedText": "Yenilik",
+    "pronunciation": "Ye-ni-lik",
+    "meaning": "A new idea or method.",
+    "category": "Technology",
+    "difficulty": "Advanced",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Responsibility",
+    "translatedText": "Sorumluluk",
+    "pronunciation": "So-rum-lu-luk",
+    "meaning": "A duty or obligation.",
+    "category": "General",
+    "difficulty": "Advanced",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Opportunity",
+    "translatedText": "Fırsat",
+    "pronunciation": "Fır-sat",
+    "meaning": "A favorable chance.",
+    "category": "Career",
+    "difficulty": "Advanced",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Perspective",
+    "translatedText": "Bakış açısı",
+    "pronunciation": "Ba-kış a-chı-sı",
+    "meaning": "A particular attitude toward something.",
+    "category": "Communication",
+    "difficulty": "Advanced",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Efficiency",
+    "translatedText": "Verimlilik",
+    "pronunciation": "Ve-rim-li-lik",
+    "meaning": "Achieving results with minimum effort.",
+    "category": "Work",
+    "difficulty": "Advanced",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Negotiation",
+    "translatedText": "Müzakere",
+    "pronunciation": "Mu-za-ke-re",
+    "meaning": "Discussion to reach an agreement.",
+    "category": "Business",
+    "difficulty": "Advanced",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Commitment",
+    "translatedText": "Bağlılık",
+    "pronunciation": "Bağ-lı-lık",
+    "meaning": "Dedication to a cause or activity.",
+    "category": "Career",
+    "difficulty": "Advanced",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Contribution",
+    "translatedText": "Katkı",
+    "pronunciation": "Kat-kı",
+    "meaning": "Something given to help achieve a result.",
+    "category": "Work",
+    "difficulty": "Advanced",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Sustainability",
+    "translatedText": "Sürdürülebilirlik",
+    "pronunciation": "Sur-du-ru-le-bi-lir-lik",
+    "meaning": "Ability to continue over time.",
+    "category": "Environment",
+    "difficulty": "Advanced",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Leadership",
+    "translatedText": "Liderlik",
+    "pronunciation": "Li-der-lik",
+    "meaning": "The ability to lead others.",
+    "category": "Business",
+    "difficulty": "Advanced",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Independence",
+    "translatedText": "Bağımsızlık",
+    "pronunciation": "Ba-ğım-sız-lık",
+    "meaning": "Freedom from outside control.",
+    "category": "General",
+    "difficulty": "Advanced",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "originalText": "Good morning",
+    "translatedText": "Günaydın",
+    "pronunciation": "Goo-nai-dun",
+    "meaning": "Greeting used in the morning",
+    "category": "Greetings",
+    "difficulty": "Beginner",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Good night",
+    "translatedText": "İyi geceler",
+    "pronunciation": "Ee-yee ge-je-ler",
+    "meaning": "Used before sleeping",
+    "category": "Greetings",
+    "difficulty": "Beginner",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Thank you very much",
+    "translatedText": "Çok teşekkür ederim",
+    "pronunciation": "Chok te-shek-kur e-de-rim",
+    "meaning": "Express gratitude",
+    "category": "Politeness",
+    "difficulty": "Beginner",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "You're welcome",
+    "translatedText": "Rica ederim",
+    "pronunciation": "Ri-ja e-de-rim",
+    "meaning": "Reply to thanks",
+    "category": "Politeness",
+    "difficulty": "Beginner",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "See you later",
+    "translatedText": "Sonra görüşürüz",
+    "pronunciation": "Son-ra go-rush-u-ruez",
+    "meaning": "Goodbye for now",
+    "category": "Greetings",
+    "difficulty": "Beginner",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "How are you?",
+    "translatedText": "Nasılsın?",
+    "pronunciation": "Na-sul-sun",
+    "meaning": "Ask someone's condition",
+    "category": "Conversation",
+    "difficulty": "Beginner",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I'm fine",
+    "translatedText": "İyiyim",
+    "pronunciation": "Ee-yee-yim",
+    "meaning": "Reply to how are you",
+    "category": "Conversation",
+    "difficulty": "Beginner",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I understand",
+    "translatedText": "Anlıyorum",
+    "pronunciation": "An-lu-yo-rum",
+    "meaning": "Express understanding",
+    "category": "Conversation",
+    "difficulty": "Beginner",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I don't understand",
+    "translatedText": "Anlamıyorum",
+    "pronunciation": "An-la-mu-yo-rum",
+    "meaning": "Express confusion",
+    "category": "Conversation",
+    "difficulty": "Beginner",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Please help me",
+    "translatedText": "Lütfen bana yardım edin",
+    "pronunciation": "Loot-fen ba-na yar-dum e-din",
+    "meaning": "Ask for help",
+    "category": "Travel",
+    "difficulty": "Beginner",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "originalText": "Could you help me?",
+    "translatedText": "Bana yardım edebilir misiniz?",
+    "pronunciation": "Ba-na yar-dum e-de-bi-lir mi-si-niz",
+    "meaning": "Politely ask for help.",
+    "category": "Conversation",
+    "difficulty": "Intermediate",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I'm looking for the station.",
+    "translatedText": "İstasyonu arıyorum.",
+    "pronunciation": "Is-ta-syo-nu a-ru-yo-rum",
+    "meaning": "Ask about a train or bus station.",
+    "category": "Travel",
+    "difficulty": "Intermediate",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "What do you recommend?",
+    "translatedText": "Ne önerirsiniz?",
+    "pronunciation": "Ne o-ne-ri-si-niz",
+    "meaning": "Ask for a recommendation.",
+    "category": "Shopping",
+    "difficulty": "Intermediate",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I completely agree.",
+    "translatedText": "Tamamen katılıyorum.",
+    "pronunciation": "Ta-ma-men ka-tu-lu-yo-rum",
+    "meaning": "Express agreement.",
+    "category": "Conversation",
+    "difficulty": "Intermediate",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I don't think so.",
+    "translatedText": "Öyle düşünmüyorum.",
+    "pronunciation": "Oy-le du-shun-mu-yo-rum",
+    "meaning": "Politely disagree.",
+    "category": "Conversation",
+    "difficulty": "Intermediate",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "That sounds interesting.",
+    "translatedText": "Kulağa ilginç geliyor.",
+    "pronunciation": "Ku-la-a il-ginch ge-li-yor",
+    "meaning": "Show interest.",
+    "category": "Conversation",
+    "difficulty": "Intermediate",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Can you explain again?",
+    "translatedText": "Tekrar açıklayabilir misiniz?",
+    "pronunciation": "Tek-rar a-chuk-la-ya-bi-lir mi-si-niz",
+    "meaning": "Ask someone to explain again.",
+    "category": "Education",
+    "difficulty": "Intermediate",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I'm just looking.",
+    "translatedText": "Sadece bakıyorum.",
+    "pronunciation": "Sa-de-je ba-ku-yo-rum",
+    "meaning": "Common shopping phrase.",
+    "category": "Shopping",
+    "difficulty": "Intermediate",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Can I pay by card?",
+    "translatedText": "Kartla ödeyebilir miyim?",
+    "pronunciation": "Kart-la o-de-ye-bi-lir mi-yim",
+    "meaning": "Ask about card payment.",
+    "category": "Shopping",
+    "difficulty": "Intermediate",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I'm in a hurry.",
+    "translatedText": "Acelem var.",
+    "pronunciation": "A-je-lem var",
+    "meaning": "Say you're in a hurry.",
+    "category": "Daily Life",
+    "difficulty": "Intermediate",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Please wait a moment.",
+    "translatedText": "Lütfen bir dakika bekleyin.",
+    "pronunciation": "Loot-fen bir da-ki-ka bek-le-yin",
+    "meaning": "Ask someone to wait.",
+    "category": "Conversation",
+    "difficulty": "Intermediate",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "It's up to you.",
+    "translatedText": "Sana kalmış.",
+    "pronunciation": "Sa-na kal-mush",
+    "meaning": "Let someone decide.",
+    "category": "Conversation",
+    "difficulty": "Intermediate",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I have no idea.",
+    "translatedText": "Hiçbir fikrim yok.",
+    "pronunciation": "Hich-bir fik-rim yok",
+    "meaning": "Express that you don't know.",
+    "category": "Conversation",
+    "difficulty": "Intermediate",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "That makes sense.",
+    "translatedText": "Bu mantıklı.",
+    "pronunciation": "Boo mant-uk-lu",
+    "meaning": "Express understanding.",
+    "category": "Conversation",
+    "difficulty": "Intermediate",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I'm not sure yet.",
+    "translatedText": "Henüz emin değilim.",
+    "pronunciation": "He-nuz e-min de-yi-lim",
+    "meaning": "Express uncertainty.",
+    "category": "Conversation",
+    "difficulty": "Intermediate",
+    "inputType": "phrase",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  }
+]

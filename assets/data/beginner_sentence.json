@@ -1,0 +1,167 @@
+[
+  {
+    "originalText": "My name is John.",
+    "translatedText": "Benim adım John.",
+    "pronunciation": "Be-nim a-dum John",
+    "meaning": "Introduce yourself.",
+    "category": "Introduction",
+    "difficulty": "Beginner",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I am from Pakistan.",
+    "translatedText": "Ben Pakistanlıyım.",
+    "pronunciation": "Ben Pa-kis-tan-lu-yum",
+    "meaning": "Tell your country.",
+    "category": "Introduction",
+    "difficulty": "Beginner",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I am a student.",
+    "translatedText": "Ben bir öğrenciyim.",
+    "pronunciation": "Ben bir o-ren-ji-yim",
+    "meaning": "Tell your profession.",
+    "category": "Introduction",
+    "difficulty": "Beginner",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I like coffee.",
+    "translatedText": "Kahveyi seviyorum.",
+    "pronunciation": "Kah-ve-yi se-vi-yo-rum",
+    "meaning": "Express a preference.",
+    "category": "Daily Life",
+    "difficulty": "Beginner",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I don't like tea.",
+    "translatedText": "Çayı sevmiyorum.",
+    "pronunciation": "Cha-yu sev-mi-yo-rum",
+    "meaning": "Express dislike.",
+    "category": "Daily Life",
+    "difficulty": "Beginner",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Where is the bathroom?",
+    "translatedText": "Tuvalet nerede?",
+    "pronunciation": "Too-va-let ne-re-de",
+    "meaning": "Ask for a location.",
+    "category": "Travel",
+    "difficulty": "Beginner",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "How much is this?",
+    "translatedText": "Bu ne kadar?",
+    "pronunciation": "Boo ne ka-dar",
+    "meaning": "Ask the price.",
+    "category": "Shopping",
+    "difficulty": "Beginner",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I need help.",
+    "translatedText": "Yardıma ihtiyacım var.",
+    "pronunciation": "Yar-du-ma ih-ti-ya-jum var",
+    "meaning": "Ask for assistance.",
+    "category": "Emergency",
+    "difficulty": "Beginner",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Can you speak slowly?",
+    "translatedText": "Yavaş konuşabilir misiniz?",
+    "pronunciation": "Ya-vash ko-nu-sha-bi-lir mi-si-niz",
+    "meaning": "Ask someone to slow down.",
+    "category": "Conversation",
+    "difficulty": "Beginner",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I don't understand.",
+    "translatedText": "Anlamıyorum.",
+    "pronunciation": "An-la-mu-yo-rum",
+    "meaning": "Say you don't understand.",
+    "category": "Conversation",
+    "difficulty": "Beginner",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Please repeat that.",
+    "translatedText": "Lütfen tekrar edin.",
+    "pronunciation": "Loot-fen tek-rar e-din",
+    "meaning": "Ask someone to repeat.",
+    "category": "Conversation",
+    "difficulty": "Beginner",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "What time is it?",
+    "translatedText": "Saat kaç?",
+    "pronunciation": "Sa-at kach",
+    "meaning": "Ask the time.",
+    "category": "Daily Life",
+    "difficulty": "Beginner",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I am hungry.",
+    "translatedText": "Açım.",
+    "pronunciation": "A-chum",
+    "meaning": "Express hunger.",
+    "category": "Food",
+    "difficulty": "Beginner",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I am thirsty.",
+    "translatedText": "Susadım.",
+    "pronunciation": "Su-sa-dum",
+    "meaning": "Express thirst.",
+    "category": "Food",
+    "difficulty": "Beginner",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "See you tomorrow.",
+    "translatedText": "Yarın görüşürüz.",
+    "pronunciation": "Ya-run go-rush-u-ruez",
+    "meaning": "Say goodbye until tomorrow.",
+    "category": "Greetings",
+    "difficulty": "Beginner",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  }
+]

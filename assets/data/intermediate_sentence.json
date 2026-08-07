@@ -1,0 +1,167 @@
+[
+  {
+    "originalText": "I have been learning Turkish for six months.",
+    "translatedText": "Altı aydır Türkçe öğreniyorum.",
+    "pronunciation": "Al-tu ay-dur Turk-che o-gre-ni-yo-rum",
+    "meaning": "Talk about learning progress.",
+    "category": "Education",
+    "difficulty": "Intermediate",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Could you speak a little slower?",
+    "translatedText": "Biraz daha yavaş konuşabilir misiniz?",
+    "pronunciation": "Bi-raz da-ha ya-vash ko-nu-sha-bi-lir mi-si-niz",
+    "meaning": "Ask someone to slow down.",
+    "category": "Conversation",
+    "difficulty": "Intermediate",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I would like to reserve a hotel room.",
+    "translatedText": "Bir otel odası ayırtmak istiyorum.",
+    "pronunciation": "Bir o-tel o-da-su a-yurt-mak is-ti-yo-rum",
+    "meaning": "Book accommodation.",
+    "category": "Travel",
+    "difficulty": "Intermediate",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "This restaurant serves delicious food.",
+    "translatedText": "Bu restoran lezzetli yemekler servis ediyor.",
+    "pronunciation": "Boo res-to-ran lez-zet-li ye-mek-ler ser-vis e-di-yor",
+    "meaning": "Talk about restaurants.",
+    "category": "Food",
+    "difficulty": "Intermediate",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I forgot to bring my passport.",
+    "translatedText": "Pasaportumu getirmeyi unuttum.",
+    "pronunciation": "Pa-sa-por-tu-mu ge-tir-me-yi u-nut-tum",
+    "meaning": "Travel situation.",
+    "category": "Travel",
+    "difficulty": "Intermediate",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "My phone battery is almost empty.",
+    "translatedText": "Telefonumun şarjı bitmek üzere.",
+    "pronunciation": "Te-le-fo-nu-mun shar-ju bit-mek u-ze-re",
+    "meaning": "Talk about battery level.",
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I usually study after dinner.",
+    "translatedText": "Genellikle akşam yemeğinden sonra ders çalışırım.",
+    "pronunciation": "Ge-nel-lik-le ak-sham ye-me-yin-den son-ra ders cha-lu-shu-rum",
+    "meaning": "Daily routine.",
+    "category": "Daily Life",
+    "difficulty": "Intermediate",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "The weather is much colder today.",
+    "translatedText": "Bugün hava çok daha soğuk.",
+    "pronunciation": "Boo-gun ha-va chok da-ha so-uk",
+    "meaning": "Talk about weather.",
+    "category": "Weather",
+    "difficulty": "Intermediate",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I need to improve my pronunciation.",
+    "translatedText": "Telaffuzumu geliştirmem gerekiyor.",
+    "pronunciation": "Te-laf-fu-zu-mu ge-lish-tir-mem ge-re-ki-yor",
+    "meaning": "Language learning.",
+    "category": "Education",
+    "difficulty": "Intermediate",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Can you recommend a good book?",
+    "translatedText": "Bana iyi bir kitap önerebilir misiniz?",
+    "pronunciation": "Ba-na i-yi bir ki-tap o-ne-re-bi-lir mi-si-niz",
+    "meaning": "Ask for recommendations.",
+    "category": "Books",
+    "difficulty": "Intermediate",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I completely understand your opinion.",
+    "translatedText": "Fikrinizi tamamen anlıyorum.",
+    "pronunciation": "Fik-ri-ni-zi ta-ma-men an-lu-yo-rum",
+    "meaning": "Agree politely.",
+    "category": "Conversation",
+    "difficulty": "Intermediate",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Tomorrow I have an important meeting.",
+    "translatedText": "Yarın önemli bir toplantım var.",
+    "pronunciation": "Ya-run o-nem-li bir top-lan-tum var",
+    "meaning": "Talk about plans.",
+    "category": "Work",
+    "difficulty": "Intermediate",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Learning a language requires patience.",
+    "translatedText": "Bir dil öğrenmek sabır gerektirir.",
+    "pronunciation": "Bir dil o-gren-mek sa-bur ge-rek-ti-rir",
+    "meaning": "Learning advice.",
+    "category": "Education",
+    "difficulty": "Intermediate",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "I don't have enough time today.",
+    "translatedText": "Bugün yeterince zamanım yok.",
+    "pronunciation": "Boo-gun ye-ter-in-je za-ma-num yok",
+    "meaning": "Express lack of time.",
+    "category": "Daily Life",
+    "difficulty": "Intermediate",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Practice makes language learning easier.",
+    "translatedText": "Pratik yapmak dil öğrenmeyi kolaylaştırır.",
+    "pronunciation": "Pra-tik yap-mak dil o-gren-me-yi ko-lay-lash-tu-rur",
+    "meaning": "Importance of practice.",
+    "category": "Education",
+    "difficulty": "Intermediate",
+    "inputType": "sentence",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  }
+]

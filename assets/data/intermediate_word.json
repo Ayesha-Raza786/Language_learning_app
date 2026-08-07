@@ -1,0 +1,112 @@
+[
+  {
+    "originalText": "Journey",
+    "translatedText": "Yolculuk",
+    "pronunciation": "Yol-ju-luk",
+    "meaning": "The act of traveling from one place to another.",
+    "category": "Travel",
+    "difficulty": "Intermediate",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Environment",
+    "translatedText": "Çevre",
+    "pronunciation": "Chev-re",
+    "meaning": "The natural world around us.",
+    "category": "Nature",
+    "difficulty": "Intermediate",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Experience",
+    "translatedText": "Deneyim",
+    "pronunciation": "De-ne-yim",
+    "meaning": "Knowledge gained through practice.",
+    "category": "Education",
+    "difficulty": "Intermediate",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Decision",
+    "translatedText": "Karar",
+    "pronunciation": "Ka-rar",
+    "meaning": "A choice made after thinking.",
+    "category": "General",
+    "difficulty": "Intermediate",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Opportunity",
+    "translatedText": "Fırsat",
+    "pronunciation": "Fur-sat",
+    "meaning": "A favorable chance.",
+    "category": "Career",
+    "difficulty": "Intermediate",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Culture",
+    "translatedText": "Kültür",
+    "pronunciation": "Kul-tur",
+    "meaning": "Ideas, customs and traditions of people.",
+    "category": "Society",
+    "difficulty": "Intermediate",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Conversation",
+    "translatedText": "Sohbet",
+    "pronunciation": "Soh-bet",
+    "meaning": "An informal talk.",
+    "category": "Communication",
+    "difficulty": "Intermediate",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Research",
+    "translatedText": "Araştırma",
+    "pronunciation": "A-rash-tur-ma",
+    "meaning": "A careful study to discover facts.",
+    "category": "Education",
+    "difficulty": "Intermediate",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Improvement",
+    "translatedText": "Gelişim",
+    "pronunciation": "Ge-li-shim",
+    "meaning": "The process of becoming better.",
+    "category": "Self Development",
+    "difficulty": "Intermediate",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  },
+  {
+    "originalText": "Responsibility",
+    "translatedText": "Sorumluluk",
+    "pronunciation": "So-rum-lu-luk",
+    "meaning": "A duty or obligation.",
+    "category": "General",
+    "difficulty": "Intermediate",
+    "inputType": "word",
+    "sourceLanguageCode": "en",
+    "targetLanguageCode": "tr"
+  }
+]
