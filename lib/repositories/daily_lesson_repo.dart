@@ -1,5 +1,4 @@
 import 'package:sqflite/sqflite.dart';
-
 import '../database/database_helper.dart';
 import '../database/daily_lesson_table.dart';
 import '../database/translation_history_table.dart';
@@ -11,9 +10,10 @@ class DailyLessonRepository {
   final DatabaseHelper _databaseHelper = DatabaseHelper.instance;
 
   Future<bool> lessonExistsToday() async {
-    final Database db = await _databaseHelper.database;
+    final db = await _databaseHelper.database;
 
-    final today = DateTime.now().toIso8601String().substring(0, 10);
+    final today =
+    DateTime.now().toIso8601String().substring(0, 10);
 
     final result = await db.query(
       DailyLessonTable.tableName,
@@ -24,51 +24,6 @@ class DailyLessonRepository {
 
     return result.isNotEmpty;
   }
-
-  Future<List<Map<String, dynamic>>> _getItems({
-    required Database db,
-    required String inputType,
-    required int limit,
-    String? category,
-  }) async {
-    List<Map<String, dynamic>> result;
-
-    if (category != null) {
-      result = await db.query(
-        TranslationHistoryTable.tableName,
-        where:
-        "${TranslationHistoryTable.inputType}=? AND "
-            "${TranslationHistoryTable.category}=?",
-        whereArgs: [inputType, category],
-        orderBy:
-        "${TranslationHistoryTable.practiceCount} ASC,"
-            "${TranslationHistoryTable.lastPracticed} ASC",
-        limit: limit,
-      );
-    } else {
-      result = [];
-    }
-
-    if (result.length < limit) {
-      final remain = limit - result.length;
-
-      final extra = await db.query(
-        TranslationHistoryTable.tableName,
-        where:
-        "${TranslationHistoryTable.inputType}=?",
-        whereArgs: [inputType],
-        orderBy:
-        "${TranslationHistoryTable.practiceCount} ASC,"
-            "${TranslationHistoryTable.lastPracticed} ASC",
-        limit: remain,
-      );
-
-      result.addAll(extra);
-    }
-
-    return result;
-  }
-
   Future<List<DailyLessonItemModel>> getTodayLesson() async {
     final Database db = await _databaseHelper.database;
 
@@ -116,7 +71,6 @@ ORDER BY dl.lessonOrder ASC
       print("No lesson found for today.");
       return [];
     }
-
 
     return maps.map((json) {
       return DailyLessonItemModel(
@@ -169,9 +123,7 @@ ORDER BY dl.lessonOrder ASC
 
     final count = await db.update(
       DailyLessonTable.tableName,
-      {
-        DailyLessonTable.reviewResult: reviewResult,
-      },
+      {DailyLessonTable.reviewResult: reviewResult},
       where: "${DailyLessonTable.id} = ?",
       whereArgs: [lessonId],
     );
@@ -181,7 +133,6 @@ ORDER BY dl.lessonOrder ASC
       where: "${DailyLessonTable.id} = ?",
       whereArgs: [lessonId],
     );
-
   }
 
   Future<void> deleteTodayLesson() async {
@@ -199,18 +150,18 @@ ORDER BY dl.lessonOrder ASC
   }
 
   Future<void> clearOldLessons() async {
-    final Database db = await _databaseHelper.database;
+    final db = await _databaseHelper.database;
 
-    final today = DateTime.now().toIso8601String().substring(0, 10);
+    final today =
+    DateTime.now().toIso8601String().substring(0, 10);
 
     await db.delete(
       DailyLessonTable.tableName,
-
       where: "${DailyLessonTable.lessonDate} != ?",
-
       whereArgs: [today],
     );
   }
+
   Future<String?> _getTodayCategory() async {
     final Database db = await _databaseHelper.database;
 
@@ -233,13 +184,85 @@ ORDER BY dl.lessonOrder ASC
     return result.first["category"] as String;
   }
 
+  Future<List<Map<String, dynamic>>> _getItems({
+    required Database db,
+    required String inputType,
+    required int limit,
+    String? category,
+  }) async {
+    List<Map<String, dynamic>> result = [];
+
+    // First: get items from today's category
+    if (category != null) {
+      final categoryItems = await db.query(
+        TranslationHistoryTable.tableName,
+        where:
+        "${TranslationHistoryTable.inputType} = ? "
+            "AND ${TranslationHistoryTable.category} = ? "
+            "AND ${TranslationHistoryTable.isHidden} = 0",
+        whereArgs: [
+          inputType,
+          category,
+        ],
+        orderBy:
+        "${TranslationHistoryTable.practiceCount} ASC, "
+            "${TranslationHistoryTable.lastPracticed} ASC",
+        limit: limit,
+      );
+
+
+      // Convert QueryResultSet into a normal mutable List.
+      result = List<Map<String, dynamic>>.from(categoryItems);
+    }
+
+    // If category doesn't have enough items,
+    // get remaining items from other visible categories.
+    if (result.length < limit) {
+      final remain = limit - result.length;
+
+      String where =
+          "${TranslationHistoryTable.inputType} = ? "
+          "AND ${TranslationHistoryTable.isHidden} = 0";
+
+      final List<dynamic> whereArgs = [inputType];
+
+      // Prevent duplicate items.
+      final existingIds = result
+          .map((item) => item[TranslationHistoryTable.id])
+          .where((id) => id != null)
+          .toList();
+
+      if (existingIds.isNotEmpty) {
+        where +=
+        " AND ${TranslationHistoryTable.id} NOT IN "
+            "(${List.filled(existingIds.length, '?').join(', ')})";
+
+        whereArgs.addAll(existingIds);
+      }
+
+      final extraItems = await db.query(
+        TranslationHistoryTable.tableName,
+        where: where,
+        whereArgs: whereArgs,
+        orderBy:
+        "${TranslationHistoryTable.practiceCount} ASC, "
+            "${TranslationHistoryTable.lastPracticed} ASC",
+        limit: remain,
+      );
+
+      // Convert to mutable list before adding.
+      result.addAll(
+        List<Map<String, dynamic>>.from(extraItems),
+      );
+    }
+
+    return result;
+  }
+
   Future<void> generateTodayLesson() async {
-
-
     await clearOldLessons();
 
     final exists = await lessonExistsToday();
-
 
     if (exists) {
       return;
@@ -248,7 +271,6 @@ ORDER BY dl.lessonOrder ASC
     final Database db = await _databaseHelper.database;
 
     final today = DateTime.now().toIso8601String().substring(0, 10);
-
 
     final category = await _getTodayCategory();
 
@@ -272,11 +294,11 @@ ORDER BY dl.lessonOrder ASC
       limit: 2,
       category: category,
     );
-    final translations = [
-      ...words,
-      ...phrases,
-      ...sentences,
-    ];
+    final translations = [...words, ...phrases, ...sentences];
+    if (translations.isEmpty) {
+      print("No visible translations available for today's lesson.");
+      return;
+    }
 
     translations.shuffle();
     final all = await db.rawQuery("""
@@ -290,14 +312,9 @@ FROM ${TranslationHistoryTable.tableName}
 ORDER BY id
 """);
 
-
-
-
-    int lessonSize = translations.length < 8 ? translations.length : 8;
+    final  lessonSize = translations.length < 8 ? translations.length : 8;
 
     for (int i = 0; i < lessonSize; i++) {
-
-
       await insertLesson(
         DailyLessonModel(
           lessonDate: today,
@@ -306,8 +323,6 @@ ORDER BY id
         ),
       );
     }
-
-    final rows = await db.query(DailyLessonTable.tableName);
 
   }
 
@@ -337,7 +352,6 @@ ORDER BY id
   }
 
   Future<DailyLessonItemModel?> getFirstLesson() async {
-
     final lessons = await getTodayLesson();
 
     if (lessons.isEmpty) {
@@ -346,6 +360,7 @@ ORDER BY id
 
     return lessons.first;
   }
+
   Future<int> getResumeIndex() async {
     final db = await _databaseHelper.database;
 
@@ -354,7 +369,7 @@ ORDER BY id
     final rows = await db.query(
       DailyLessonTable.tableName,
       where:
-      "${DailyLessonTable.lessonDate}=? AND ${DailyLessonTable.reviewResult}=-1",
+          "${DailyLessonTable.lessonDate}=? AND ${DailyLessonTable.reviewResult}=-1",
       whereArgs: [today],
       orderBy: "${DailyLessonTable.lessonOrder} ASC",
       limit: 1,
@@ -366,6 +381,7 @@ ORDER BY id
 
     return (rows.first[DailyLessonTable.lessonOrder] as int) - 1;
   }
+
   Future<DailyLessonItemModel?> getCurrentLesson() async {
     await generateTodayLesson();
 
@@ -383,6 +399,7 @@ ORDER BY id
 
     return lessons[resumeIndex];
   }
+
   Future<bool> isLessonCompleted() async {
     final db = await _databaseHelper.database;
 
@@ -391,13 +408,14 @@ ORDER BY id
     final result = await db.query(
       DailyLessonTable.tableName,
       where:
-      "${DailyLessonTable.lessonDate} = ? AND ${DailyLessonTable.reviewResult} = ?",
+          "${DailyLessonTable.lessonDate} = ? AND ${DailyLessonTable.reviewResult} = ?",
       whereArgs: [today, -1],
       limit: 1,
     );
 
     return result.isEmpty;
   }
+
   Future<void> printLessonTable() async {
     final db = await _databaseHelper.database;
 
@@ -405,6 +423,5 @@ ORDER BY id
       DailyLessonTable.tableName,
       orderBy: "${DailyLessonTable.lessonOrder} ASC",
     );
-
   }
 }

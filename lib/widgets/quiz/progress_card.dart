@@ -29,11 +29,11 @@ Widget buildProgressCard() {
             children: [
 
               SizedBox(
-                width: 180,
-                height: 180,
+                width: 130,
+                height: 130,
                 child: CircularProgressIndicator(
                   value: controller.progress,
-                  strokeWidth: 12,
+                  strokeWidth: 10,
                   backgroundColor: Colors.grey.shade200,
                   color: AppColors.accentGreen,
                   strokeCap: StrokeCap.round,
@@ -46,7 +46,7 @@ Widget buildProgressCard() {
                   Text(
                     "${(controller.progress * 100).toStringAsFixed(0)}%",
                     style: TextStyle(
-                      fontSize: 42,
+                      fontSize: 30,
                       fontWeight: FontWeight.bold,
                       color: AppColors.textPrimary,
                     ),
@@ -67,11 +67,11 @@ Widget buildProgressCard() {
             ],
           ),
 
-          const SizedBox(height: 22),
+          const SizedBox(height: 20),
 
           Container(
             padding: const EdgeInsets.symmetric(
-                horizontal: 18,
+                horizontal: 12,
                 vertical: 10),
             decoration: BoxDecoration(
               color: AppColors.darkGreen,
@@ -84,10 +84,10 @@ Widget buildProgressCard() {
                 Icon(
                   Icons.schedule,
                   color: Colors.white,
-                  size: 18,
+                  size: 16,
                 ),
 
-                SizedBox(width: 8),
+                SizedBox(width: 7),
 
                 Text(
                   "Estimated Time • 3-5 min",

@@ -28,7 +28,7 @@ class AIScreen extends GetView<TranslationController> {
 
             const SizedBox(height: 20),
 
-            /// Replace later with Obx()
+
             Obx(() {
 
               if (controller.isLoading.value) {

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../constants/app_colors.dart';
 import '../view_models/quiz_vm.dart';
-import '../widgets/quiz/difficulty_sector.dart';
-import '../widgets/quiz/previous_quiz.dart';
 import '../widgets/quiz/progress_card.dart';
 import '../widgets/quiz/start_quiz_button.dart';
 import '../widgets/quiz/statistics_grid.dart';
@@ -38,30 +36,13 @@ class _QuizScreenState extends State<QuizScreen> {
 
               buildProgressCard(),
 
-              const SizedBox(height: 20),
+              const SizedBox(height: 18),
 
               buildStatisticsGrid(controller),
 
               const SizedBox(height: 24),
 
-              const Text(
-                "Difficulty",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 16,
-                ),
-              ),
 
-              const SizedBox(height: 14),
-
-              DifficultySelector(
-                selectedDifficulty: selectedDifficulty,
-                onChanged: (value) {
-                  setState(() {
-                    selectedDifficulty = value;
-                  });
-                },
-              ),
               const SizedBox(height: 28),
 
               buildStartQuizButton(),

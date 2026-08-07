@@ -217,7 +217,7 @@ class LessonFlashcard extends StatelessWidget {
                     "Pronunciation",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: AppColors.tanAccent
+                      color: AppColors.darkGreen
                     ),
                   ),
 
@@ -237,7 +237,7 @@ class LessonFlashcard extends StatelessWidget {
                     "Meaning",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                        color: AppColors.tanAccent
+                        color: AppColors.darkGreen
                     ),
                   ),
 

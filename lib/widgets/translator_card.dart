@@ -16,17 +16,17 @@ class TranslatorCard extends GetView<TranslationController> {
         borderRadius: BorderRadius.circular(18),
       ),
       child: Padding(
-        padding: const EdgeInsets.all(18),
+        padding: const EdgeInsets.all(15),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
 
 
 
-            const SizedBox(height: 12),
+            const SizedBox(height: 8),
 
             Container(
-              height: 140,
+              height: 100,
               decoration: BoxDecoration(
                 color: AppColors.background,
                 borderRadius: BorderRadius.circular(12),
@@ -36,7 +36,7 @@ class TranslatorCard extends GetView<TranslationController> {
               ),
               padding: const EdgeInsets.all(12),
               child:  TextField(
-                maxLines: null,
+                maxLines: 2,
                 decoration: InputDecoration(
                   hintText: "Enter word or sentence...",
                   border: InputBorder.none,

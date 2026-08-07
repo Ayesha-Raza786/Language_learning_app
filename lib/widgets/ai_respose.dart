@@ -64,35 +64,6 @@ class AIResponseCard extends StatelessWidget {
 
     const SizedBox(height: 20),
 
-    Text(
-    "🇬🇧 English",
-    style: TextStyle(
-    color: AppColors.textSecondary,
-    fontWeight: FontWeight.w600,
-    ),
-    ),
-
-    const SizedBox(height: 6),
-
-    Text(
-      originalText,
-    style: const TextStyle(
-    fontSize: 24,
-    fontWeight: FontWeight.bold,
-    ),
-    ),
-
-    const SizedBox(height: 16),
-
-    const Center(
-    child: Icon(
-    Icons.arrow_downward_rounded,
-    color: AppColors.accentGreen,
-    size: 28,
-    ),
-    ),
-
-    const SizedBox(height: 16),
 
     Text(
     " Translation",
