@@ -79,6 +79,7 @@ class LinguaLearnApp extends StatelessWidget {
         GetPage(
           name: '/quiz',
           page: () => const QuizScreenQuestion(),
+
         ),
       ],
     );

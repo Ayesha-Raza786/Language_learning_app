@@ -44,25 +44,7 @@ The app focuses on making language learning simple, interactive, and engaging th
 -  **Offline Local Storage**
     - Stores learning and translation data locally using SQLite/SQFlite.
 
----
-## Screenshots
 
-| Home Screen |                      Essential Vocabulary                      |                     Daily Lessons                     |
-|:---:|:--------------------------------------------------------------:|:-----------------------------------------------------:|
-| <img src="assets/screenshots/home.png" width="220"> | <img src="assets/screenshots/essential_vocab.png" width="220"> | <img src="assets/screenshots/lesson.png" width="220"> |
-
-<br>
-
-| Quiz | Quiz Results |                      AI Translation                      |
-|:---:|:---:|:--------------------------------------------------------:|
-| <img src="assets/screenshots/quiz.png" width="220"> | <img src="assets/screenshots/quiz_result.png" width="220"> | <img src="assets/screenshots/AI_screen.png" width="220"> |
-|      |              |                                                          |
-
-<br>
-
-| Favorites | Translation History | |
-|:---:|:---:|:---:|
-| <img src="assets/screenshots/favourites.png" width="220"> | <img src="assets/screenshots/history.png" width="220"> | |
 ---
 
 ##  Tech Stack
@@ -136,3 +118,32 @@ lib/
 │   └── ...
 │
 └── main.dart
+---
+## Screenshots
+
+| Home Screen |                      Essential Vocabulary                      |                     Daily Lessons                     |
+|:---:|:--------------------------------------------------------------:|:-----------------------------------------------------:|
+| <img src="assets/screenshots/home.png" width="220"> | <img src="assets/screenshots/essential_vocab.png" width="220"> | <img src="assets/screenshots/lesson.png" width="220"> |
+
+<br>
+
+| Quiz | Quiz Results |                      AI Translation                      |
+|:---:|:---:|:--------------------------------------------------------:|
+| <img src="assets/screenshots/quiz.png" width="220"> | <img src="assets/screenshots/quiz_result.png" width="220"> | <img src="assets/screenshots/AI_screen.png" width="220"> |
+|      |              |                                                          |
+
+<br>
+
+| Favorites | Translation History | |
+|:---:|:---:|:---:|
+| <img src="assets/screenshots/favourites.png" width="220"> | <img src="assets/screenshots/history.png" width="220"> | |
+
+...
+
+## Future Work
+
+-  **Learning Reminders & Notifications** – Notify users about their daily lesson and encourage consistent learning.
+- **Text-to-Speech** – Add speech functionality to help users practice pronunciation.
+-  **Mistake Review** – Provide a dedicated section to review words, phrases, and sentences that users struggled with during quizzes and lessons.
+-  **Advanced Progress Tracking** – Provide detailed learning statistics and performance insights.
+-  **Personalized Learning** – Adapt daily lessons based on the user's learning history and performance.

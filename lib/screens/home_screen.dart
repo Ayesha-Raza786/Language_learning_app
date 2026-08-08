@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 _buildDailyProgressCard(),
                 const SizedBox(height: 24),
                 _buildContinueSection(),
-                const SizedBox(height: 10),
+                const SizedBox(height: 4),
               ]),
             ),
           ),

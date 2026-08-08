@@ -14,7 +14,21 @@ class LessonFlashcard extends StatelessWidget {
     super.key,
     required this.lesson,
   });
+  double _getTextSize(String text) {
+    if (text.length > 80) {
+      return 24;
+    }
 
+    if (text.length > 45) {
+      return 28;
+    }
+
+    if (text.length > 25) {
+      return 32;
+    }
+
+    return 38;
+  }
   @override
   Widget build(BuildContext context) {
     final controller = Get.find<DailyLessonController>();
@@ -100,14 +114,21 @@ class LessonFlashcard extends StatelessWidget {
 
             const SizedBox(height: 40),
 
-            Text(
-              lesson.translation.normalizedText,
-              textAlign: TextAlign.center,
-              style: const TextStyle(
-                fontSize: 38,
-                fontWeight: FontWeight.bold,
-                color: AppColors.darkGreen,
-                fontFamily: "Georgia",
+            Flexible(
+              child: SingleChildScrollView(
+                child: Text(
+                  lesson.translation.originalText,
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: _getTextSize(
+                      lesson.translation.originalText,
+                    ),
+                    fontWeight: FontWeight.bold,
+                    color: AppColors.darkGreen,
+                    fontFamily: "Georgia",
+                    height: 1.3,
+                  ),
+                ),
               ),
             ),
 
@@ -173,13 +194,16 @@ class LessonFlashcard extends StatelessWidget {
         ],
       ),
       child: SingleChildScrollView(
-        padding: const EdgeInsets.all(10),
+        padding: const EdgeInsets.symmetric(
+          horizontal: 20,
+          vertical: 25,
+        ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
 
             Text(
-              lesson.translation.normalizedText,
+              lesson.translation.originalText,
               textAlign: TextAlign.center,
               style: const TextStyle(
                 fontSize: 34,

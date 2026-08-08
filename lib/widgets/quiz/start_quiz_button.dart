@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../constants/app_colors.dart';
+import '../../screens/quiz_screen.dart';
 
 Widget buildStartQuizButton() {
   return SizedBox(
@@ -10,7 +11,9 @@ Widget buildStartQuizButton() {
     child: FilledButton.icon(
       onPressed: () {
 
-       Get.toNamed('/quiz');
+        Get.to(
+              () => QuizScreenQuestion(),
+        );
 
       },
 
